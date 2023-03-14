@@ -136,6 +136,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+#container {
+  width: 100%;
+  display: inline-block;
+}
+
 /* Basic */
 
 	@-ms-viewport {
