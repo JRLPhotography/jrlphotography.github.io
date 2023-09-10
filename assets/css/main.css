@@ -1644,6 +1644,10 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			#main .thumb > .page {
+				
+			}
+
 			#main .thumb > h2 {
 				pointer-events: none;
 				bottom: 1.875em;
