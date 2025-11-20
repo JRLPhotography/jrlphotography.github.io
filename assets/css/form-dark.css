@@ -1,0 +1,21 @@
+/* Dark theme for embedded Google Forms */
+.google-form-iframe {
+  width: 100%;
+  max-width: 640px;
+  height: 600px;
+  border: 0;
+  background: #242629;
+  filter: invert(1) hue-rotate(180deg) saturate(0.9);
+  -webkit-filter: invert(1) hue-rotate(180deg) saturate(0.9);
+  box-shadow: none;
+}
+
+@media (max-width: 640px) {
+  .google-form-iframe { height: 800px; }
+}
+
+/* Optional: center the iframe inside its container */
+.google-form-iframe-container {
+  display: flex;
+  justify-content: center;
+}
