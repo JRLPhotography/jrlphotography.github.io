@@ -232,7 +232,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 2em 0.5rem;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -800,7 +800,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 3rem 1.5rem;
 		padding-left: 1em;
 	}
 
