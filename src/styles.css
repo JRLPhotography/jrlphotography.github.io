@@ -1,0 +1,200 @@
+.page-title {
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+.gallery-cta {
+  margin: 2em auto 6em;
+  max-width: 62em;
+  padding: 0 2em;
+  text-align: center;
+}
+
+.text-page {
+  margin: 2em auto;
+  max-width: 62em;
+  padding: 0 2em 3em;
+}
+
+.text-page .page-title {
+  margin-top: 1em;
+}
+
+.price-package {
+  margin: 2em 0;
+}
+
+.price-package ul {
+  margin-bottom: 1.5em;
+}
+
+.price-note {
+  margin: 3em 0;
+  text-align: center;
+}
+
+.subtle-link {
+  color: #a0a0a1;
+}
+
+.panel > .closer {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.lightbox {
+  align-items: center;
+  background: transparent;
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  padding: 50px;
+  position: fixed;
+  z-index: 20000;
+}
+
+.lightbox-dialog {
+  background: rgba(31, 34, 36, 0.925);
+  box-shadow: 0 1em 3em 0.5em rgba(0, 0, 0, 0.25);
+  cursor: default;
+  max-height: 100%;
+  max-width: 100%;
+  outline: none;
+  position: relative;
+}
+
+.lightbox figure {
+  margin: 0;
+  position: relative;
+}
+
+.lightbox figure img {
+  display: block;
+  max-height: calc(100vh - 100px);
+  max-width: calc(100vw - 100px);
+  object-fit: contain;
+}
+
+.lightbox figcaption {
+  background: linear-gradient(to top, rgba(16, 16, 16, 0.45) 25%, transparent);
+  bottom: 0;
+  left: 0;
+  padding: 2em 2em 0.1em;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  z-index: 2;
+}
+
+.lightbox figcaption h2 {
+  margin: 0 0 0.5em;
+}
+
+.lightbox figcaption p {
+  color: #fff;
+}
+
+.lightbox button {
+  background: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0;
+  box-shadow: none;
+  color: transparent;
+  cursor: pointer;
+  font-size: 1em;
+  line-height: 1;
+  opacity: 0.5;
+  padding: 0;
+  position: absolute;
+  text-indent: -9999px;
+  transition: opacity 0.2s ease-in-out;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.lightbox-dialog:hover button {
+  opacity: 0.75;
+}
+
+.lightbox-dialog button:hover,
+.lightbox-dialog button:focus-visible {
+  opacity: 1;
+}
+
+.lightbox button:focus-visible {
+  outline: 1px solid rgba(255, 255, 255, 0.75);
+  outline-offset: -4px;
+}
+
+.lightbox button.lightbox-close {
+  background-image: url('../assets/css/images/close.svg');
+  background-size: 3em;
+  height: 5em;
+  right: 0;
+  top: 0;
+  width: 5em;
+}
+
+.lightbox button.lightbox-previous,
+.lightbox button.lightbox-next {
+  background-image: url('../assets/css/images/arrow.svg');
+  background-size: 5em;
+  height: 8em;
+  margin-top: -4em;
+  top: 50%;
+  width: 6em;
+}
+
+.lightbox button.lightbox-previous {
+  left: 0;
+  transform: scaleX(-1);
+}
+
+.lightbox button.lightbox-next {
+  right: 0;
+}
+
+@media screen and (max-width: 736px) {
+  .page-title {
+    margin: 1em 0;
+  }
+
+  .gallery-cta {
+    margin: 2em auto 5em;
+    padding: 0 1.5em;
+  }
+
+  .text-page {
+    margin: 1em auto;
+    padding: 0 1.5em 2em;
+  }
+
+  .lightbox {
+    padding: 20px;
+  }
+
+  .lightbox figure img {
+    max-height: calc(100vh - 40px);
+    max-width: calc(100vw - 40px);
+  }
+
+  .lightbox figcaption {
+    padding: 1em;
+  }
+
+  .lightbox button.lightbox-previous,
+  .lightbox button.lightbox-next {
+    background-size: 3em;
+    height: 5em;
+    margin-top: -2.5em;
+    width: 3.5em;
+  }
+
+  .lightbox button.lightbox-close {
+    background-size: 2.5em;
+    height: 4em;
+    width: 4em;
+  }
+}
