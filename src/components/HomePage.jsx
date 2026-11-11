@@ -1,8 +1,8 @@
 const categories = [
-  { title: 'Retrato', href: 'retrato.html', image: 'images/thumbs/retratos/Alba_SerLaOtra-1.jpg' },
-  { title: 'Viajes y Street', href: 'viajes-street.html', image: 'images/thumbs/viajes/Amsterdam-2.jpg' },
-  { title: 'Eventos y Espectáculos', href: 'eventos-espectaculos.html', image: 'images/thumbs/eventos/FiestaHalloweenAmorevo2021-1.jpg' },
-  { title: 'Artística', href: 'artistica.html', image: 'images/portfolio/artistica/Granada_EstanqueConventoAlbaicin.jpg' },
+  { title: 'Retrato', href: 'retrato.html', image: 'https://photogallery.jrl-nas.tech/thumbnails/retratos/Alba_SerLaOtra-1.jpg' },
+  { title: 'Viajes y Street', href: 'viajes-street.html', image: 'https://photogallery.jrl-nas.tech/thumbnails/viajes/Amsterdam-2.jpg' },
+  { title: 'Eventos y Espectáculos', href: 'eventos-espectaculos.html', image: 'https://photogallery.jrl-nas.tech/thumbnails/eventos/FiestaHalloweenAmorevo2021-1.jpg' },
+  { title: 'Artística', href: 'artistica.html', image: 'https://photogallery.jrl-nas.tech/thumbnails/artistica/Granada_EstanqueConventoAlbaicin.jpg' },
 ];
 
 export default function HomePage() {
